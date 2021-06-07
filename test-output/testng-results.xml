@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-07T13:26:57 IST" name="Default suite" finished-at="2021-06-07T13:28:07 IST" duration-ms="69897">
+    <groups>
+    </groups>
+    <test started-at="2021-06-07T13:26:57 IST" name="Default test" finished-at="2021-06-07T13:28:07 IST" duration-ms="69897">
+      <class name="com.testCases.PositiveTestcase">
+        <test-method is-config="true" signature="Testbefore()[pri:0, instance:com.testCases.PositiveTestcase@36328d33]" started-at="2021-06-07T13:26:57 IST" name="Testbefore" finished-at="2021-06-07T13:27:18 IST" duration-ms="20370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testbefore -->
+        <test-method signature="SwagLabsPositiveScenario(java.util.Hashtable)[pri:1, instance:com.testCases.PositiveTestcase@36328d33]" started-at="2021-06-07T13:27:18 IST" name="SwagLabsPositiveScenario" data-provider="SwagLabs Positive Scenario" finished-at="2021-06-07T13:28:06 IST" duration-ms="48843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=standard_user, Password=secret_sauce, Environment=QA, Runmode=Y, TestcaseName=SelectedProducts, row=3, Result=Fail}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwagLabsPositiveScenario -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testCases.PositiveTestcase@36328d33]" started-at="2021-06-07T13:28:06 IST" name="afterMethod" finished-at="2021-06-07T13:28:07 IST" duration-ms="583" status="FAIL">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RBK337N', ip: '192.168.1.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: G:\Frameworks\ValueLabsAuto..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, databaseEnabled: false, desired: {app: G:\Frameworks\ValueLabsAuto..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, deviceName: Honor 9 Lite, platformName: android, platformVersion: 9, udid: S6L3Y18622006181}, deviceApiLevel: 28, deviceManufacturer: HUAWEI, deviceModel: LLD-AL10, deviceName: S6L3Y18622006181, deviceScreenDensity: 408, deviceScreenSize: 1080x2160, deviceUDID: S6L3Y18622006181, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: ANDROID, platformVersion: 9, statBarHeight: 72, takesScreenshot: true, udid: S6L3Y18622006181, viewportRect: {height: 1960, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d9273915-acc2-4d60-9954-ba350e927a86]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RBK337N', ip: '192.168.1.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: G:\Frameworks\ValueLabsAuto..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, databaseEnabled: false, desired: {app: G:\Frameworks\ValueLabsAuto..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, deviceName: Honor 9 Lite, platformName: android, platformVersion: 9, udid: S6L3Y18622006181}, deviceApiLevel: 28, deviceManufacturer: HUAWEI, deviceModel: LLD-AL10, deviceName: S6L3Y18622006181, deviceScreenDensity: 408, deviceScreenSize: 1080x2160, deviceUDID: S6L3Y18622006181, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: ANDROID, platformVersion: 9, statBarHeight: 72, takesScreenshot: true, udid: S6L3Y18622006181, viewportRect: {height: 1960, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d9273915-acc2-4d60-9954-ba350e927a86
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.base.BaseClass.TestAfterMethod(BaseClass.java:118)
+at com.testCases.PositiveTestcase.afterMethod(PositiveTestcase.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testCases.PositiveTestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
